@@ -20,9 +20,9 @@ countries = np.array([
 'Greece'
 ])
 lonliness_per = np.array([25,26,30,30,33,35,37,39,40,42,45,46,47,48,62])
-rfriend_per =np.array([95.3,94, 91.8, 89.9, 93.2,90.1, 92, 94.6, 94.8, 91.7, 88.5,
-91.5, 90.8, 86.6, 82.3])
-rfriend_per = sorted(rfriend_per)
+rfriend_per =np.array([95.3, 86.6, 90.8, 91.5, 88.4,91.7, 94.8, 94.6, 92, 90.1, 
+93.2, 89.9, 91.8, 94, 95.3])
+# rfriend_per = sorted(rfriend_per)
 
 font_styles = {
   'family' :'serif', 
@@ -32,7 +32,7 @@ font_styles = {
 }
 
 
-mpl.suptitle('Lonliness & Friends trust per ')
+mpl.suptitle('Lonliness & Friends Trust per Country')
 mpl.subplot(2,2,1)
 mpl.grid()
 mpl.title('Lonliness per Country plot')
