@@ -6,4 +6,4 @@ The two graphs display the same statics in different ways, with the plot and bar
 
 Second is the reports of people that claim to have repliable friends per country.
 This is represented by the graphs of lime color and as the first, the two graphs display
-the same statistics in different ways, as plot and as bars
+the same statistics in different ways, as plot and as bars 
